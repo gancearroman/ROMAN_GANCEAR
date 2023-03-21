@@ -44,6 +44,8 @@ public class HomeWork1 {
 
         System.out.println(total);
 
+
+         }
     }
 
-}
+
