@@ -21,6 +21,8 @@ public class Circle {
 
         System.out.println("Площадь окружности равна " + calculateArea(NewCircle.radius));
 
+
+
     }
 
 }
