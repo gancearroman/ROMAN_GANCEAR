@@ -2,7 +2,7 @@ package org.example.homework_nr_4;
 
 public class HomeWork4 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
 // Задание номер 4
         int[] array = new int[]{10, 2, 13, 11, 4, 7, 12, 6, 23, 3};
