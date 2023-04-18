@@ -4,32 +4,26 @@ package org.example.homework_nr_5;
 public class HomeWork5 {
 
     public enum Weekday {
-        MONDAY ("weekday"),
-        TUESDAY ("weekday"),
-        WEDNESDAY ("weekday"),
-        THURSDAY ("weekday"),
-        FRIDAY ("weekday"),
-        SATURDAY ("dayoff"),
-        SUNDAY ("dayoff");
-
-         String type;
-        Weekday(String type){
-            this.type = type;
-        }
-
+        MONDAY,
+        TUESDAY,
+        WEDNESDAY,
+        THURSDAY,
+        FRIDAY,
+        SATURDAY,
+        SUNDAY;
 
         public boolean isWeekDay() {
-            if(type == "weekday"){
+            if(this != SUNDAY && this != SATURDAY){
                 return true;
             }
             return false;
         }
 
         public boolean isHoliday() {
-            if(type == "dayoff"){
-                return true;
+            if(this != SUNDAY && this != SATURDAY){
+                return false;
             }
-            return false;
+            return true;
         }
         }
     enum month {
