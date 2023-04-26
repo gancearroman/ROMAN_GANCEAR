@@ -60,8 +60,8 @@ public class Invoice {
             this.price = 0.00;}
         else {
             this.price = price;
-            }
         }
+    }
 
 
     void getAmount() {
