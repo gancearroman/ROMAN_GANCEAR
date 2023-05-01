@@ -2,7 +2,7 @@ package org.example.homework_nr_8;
 
 public interface Animal {
 
-    Integer PairOfLegs = 2; //Статическая переменная. Количество ног в одной паре.
+    Integer PAIR_OF_LEGS = 2; //Статическая переменная. Количество ног в одной паре.
 
         void numberOfLegs();
 

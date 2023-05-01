@@ -13,7 +13,7 @@ public class Elephant extends Erbivor implements Animal {
 
     @Override
     public void numberOfLegs() {
-        System.out.println("Elephant has " + PairOfLegs * this.numberOfPairsOfLegs + " legs");
+        System.out.println("Elephant has " + PAIR_OF_LEGS * this.numberOfPairsOfLegs + " legs");
     }
 
     @Override
